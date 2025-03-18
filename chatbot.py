@@ -5,7 +5,7 @@ import buttons
 # Configurar API do Gemini
 API_KEY = "AIzaSyCiprekWrldb64DBpfWvUTo-atHJX3XTGM"
 ai.configure(api_key=API_KEY)
-model = ai.GenerativeModel("gemini-pro")
+model = ai.GenerativeModel("models/gemini-1.5-pro-latest")
 chat = model.start_chat()
 
 # Configuração do tema
