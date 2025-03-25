@@ -9,19 +9,19 @@ model = ai.GenerativeModel("models/gemini-1.5-pro-latest") #Define o modelo de I
 chat = model.start_chat() #Inicia um chat com o modelo para interações contínuas.
 
 # Configuração do tema
-theme = "SystemDefault1"
-sg.theme(theme) #Define o tema da interface como SystemDefault1, que usa um estilo nativo do sistema operacional.
+theme = "DarkBrown1"
+sg.theme(theme) #Define o tema da interface como SystemDefault1, que usa um estilo nativo do sistema operacional. SystemDefault1
 
 # Layout da interface
 layout = [
     [sg.Image(data=buttons.icone_chatbot), sg.Text("MDB", font=("Verdana", 14))], #Adiciona uma imagem (buttons.icone_chatbot) e um título ("MDB").
     
     # Output apenas para exibição (não editável)
-    [sg.Multiline(size=(70, 15), key="-OUTPUT-", disabled=True, autoscroll=True, font=("Verdana", 12), text_color="black", background_color="white")], #Adiciona uma área de saída de texto (sg.Multiline), onde as mensagens do usuário e da IA serão exibidas.
+    [sg.Multiline(size=(70, 15), key="-OUTPUT-", disabled=True, autoscroll=True, font=("Verdana", 12), text_color="white", background_color="#4b4949")], #Adiciona uma área de saída de texto (sg.Multiline), onde as mensagens do usuário e da IA serão exibidas.
     
     # Entrada de texto e botão de enviar
-    [sg.InputText(key="-INPUT-", size=(65, 2), font=("Verdana", 12)), #Adiciona um campo de entrada de texto (sg.InputText) para o usuário digitar a pergunta.
-     sg.Button("", image_data=buttons.button_enviar_base64, border_width=0)], #Adiciona um botão de envio que usa uma imagem (buttons.button_enviar_base64).
+    [sg.InputText(key="-INPUT-", size=(65, 2), font=("Verdana", 12), background_color="#4b4949" , text_color="white"), #Adiciona um campo de entrada de texto (sg.InputText) para o usuário digitar a pergunta.
+     sg.Button("", image_data=buttons.button_enviar_base64, border_width=0, button_color=("#4b4949", "#2C2825"))], #Adiciona um botão de envio que usa uma imagem (buttons.button_enviar_base64).
 ]
 
 # Criar a janela
