@@ -1,38 +1,38 @@
 
-# 🤖 Chatbot com PySimpleGUI + Gemini API
+# 🤖 Chatbot with PySimpleGUI + Gemini API
 
-Este projeto apresenta um **chatbot interativo** com uma interface moderna e intuitiva, desenvolvido com [PySimpleGUI](https://pysimplegui.readthedocs.io/) e a **API Gemini**. A aplicação permite ao usuário manter conversas fluidas com uma IA de forma simples e eficiente.
-
----
-
-## ✨ Funcionalidades
-
-- 🧠 Integração com o modelo `gemini-1.5-pro-latest`, oferecendo **respostas contextuais e inteligentes**
-- 💬 Histórico de conversa visível, proporcionando **experiência de chat realista**
-- 🪄 Campo de entrada com envio automático e **limpeza instantânea**
-- 🎨 Interface limpa com:
-  - Título do projeto
-  - Imagem representando o chatbot
-  - Campo de entrada e botão de envio
-- 🛑 Encerramento automático e organizado ao fechar a janela
+This project introduces an **interactive chatbot** with a modern and intuitive interface, built using [PySimpleGUI](https://pysimplegui.readthedocs.io/) and the **Gemini API**. It allows users to engage in smooth conversations with an AI in a simple and effective way.
 
 ---
 
-## 🖼️ Captura de Tela
+## ✨ Features
 
-![Interface do Chatbot](https://github.com/user-attachments/assets/b9c6c286-9c8c-456d-8b9d-242f13889f98)
+- 🧠 Integration with the `gemini-1.5-pro-latest` model, providing **context-aware and intelligent responses**
+- 💬 Visible chat history, ensuring a **realistic chat experience**
+- 🪄 Input field with automatic message sending and **instant clearing**
+- 🎨 Clean interface including:
+  - Project title
+  - Chatbot representative image
+  - Input field and send button
+- 🛑 Automatic and organized shutdown when the window is closed
 
 ---
 
-## 🚀 Como Usar
+## 🖼️ Screenshot
 
-1. **Clone o repositório**:
+![Chatbot Interface](https://github.com/user-attachments/assets/b9c6c286-9c8c-456d-8b9d-242f13889f98)
+
+---
+
+## 🚀 How to Use
+
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/seu-usuario/chatbot-gemini.git
+   git clone https://github.com/your-username/chatbot-gemini.git
    cd chatbot-gemini
    ```
 
-2. **Instale as dependências**:
+2. **Install dependencies**:
    ```bash
    pip install PySimpleGUI
    ```
@@ -40,14 +40,14 @@ Este projeto apresenta um **chatbot interativo** com uma interface moderna e int
    pip install google-generativeai
    ```
 
-3. **Execute o programa**:
+3. **Run the program**:
    ```bash
    python chatbot.py
    ```
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 📦 chatbot-gemini
@@ -61,17 +61,19 @@ Este projeto apresenta um **chatbot interativo** com uma interface moderna e int
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - Python
 - PySimpleGUI
-- API Gemini
-- PIL (Pillow) para manipulação de imagens (se necessário)
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](LICENSE).
+- Gemini API
+- PIL (Pillow) for image handling (if necessary)
 
 ---
 
-Sinta-se à vontade para contribuir, abrir issues ou sugerir melhorias! 🚀
+## 📄 License
+
+This project is licensed under the [MIT](LICENSE) license.
+
+---
+
+Feel free to contribute, open issues, or suggest improvements! 🚀
