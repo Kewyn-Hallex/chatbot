@@ -34,7 +34,7 @@ Este projeto apresenta um **chatbot interativo** com uma interface moderna e int
 
 2. **Instale as dependências**:
    ```bash
-   pip install -r requirements.txt
+   pip install PySimpleGUI
    ```
 
 3. **Execute o programa**:
@@ -64,15 +64,6 @@ Este projeto apresenta um **chatbot interativo** com uma interface moderna e int
 - PySimpleGUI
 - API Gemini
 - PIL (Pillow) para manipulação de imagens (se necessário)
-
----
-
-## 👨‍💻 Desenvolvedores
-
-- [Seu Nome Aqui]
-- [Contribuidores, se houver]
-
----
 
 ## 📄 Licença
 
