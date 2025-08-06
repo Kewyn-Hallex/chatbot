@@ -36,6 +36,9 @@ Este projeto apresenta um **chatbot interativo** com uma interface moderna e int
    ```bash
    pip install PySimpleGUI
    ```
+   ```bash
+   pip install google-generativeai
+   ```
 
 3. **Execute o programa**:
    ```bash
